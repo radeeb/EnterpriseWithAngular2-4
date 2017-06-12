@@ -9,19 +9,12 @@ import { AngularFire} from 'angularfire2';
 export class AppComponent {
   title = 'app works!';
   cuisines;
-  private subscription;
 
   constructor(private af: AngularFire){
   }
 
   ngOnInit() {
-      this.subscription = this.af.database.list('/cuisines').subscribe(x => {
-          this.cuisines = x;
-          console.log(this.cuisines);
-      });
-  }
+      this.cuisines = this.af.database.list('/cuisines');
+}
 
-  ngOnDestroy() {
-      this.subscription.unsubscribe();
-  }
 }
