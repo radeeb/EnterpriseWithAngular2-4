@@ -1,0 +1,28 @@
+[debug] [2017-06-14T07:53:55.132Z] ----------------------------------------------------------------------
+[debug] [2017-06-14T07:53:55.145Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\Radeeb. J.B\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-06-14T07:53:55.146Z] CLI Version:  3.9.1
+[debug] [2017-06-14T07:53:55.147Z] Platform:     win32
+[debug] [2017-06-14T07:53:55.147Z] Node Version: v7.4.0
+[debug] [2017-06-14T07:53:55.148Z] Time:         Wed Jun 14 2017 02:53:55 GMT-0500 (Central Daylight Time)
+[debug] [2017-06-14T07:53:55.149Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-14T07:53:55.198Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-14T07:53:55.199Z] > authorizing via signed-in user
+[debug] [2017-06-14T07:53:55.208Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/enterpriseapp-95ec1  
+ Wed Jun 14 2017 02:53:55 GMT-0500 (Central Daylight Time)
+[debug] [2017-06-14T07:53:56.167Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-14T07:53:56.170Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/enterpriseapp-95ec1/tokens  
+ Wed Jun 14 2017 02:53:56 GMT-0500 (Central Daylight Time)
+[debug] [2017-06-14T07:53:56.811Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'M:\JS\pepper'...
+[info] 
+[debug] [2017-06-14T07:53:56.827Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/enterpriseapp-95ec1  
+ Wed Jun 14 2017 02:53:56 GMT-0500 (Central Daylight Time)
+[debug] [2017-06-14T07:53:57.355Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-14T07:53:57.356Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/98225446014/clients/_:getWebAppConfig  
+ Wed Jun 14 2017 02:53:57 GMT-0500 (Central Daylight Time)
+[debug] [2017-06-14T07:53:58.120Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: dist
+[info] +  hosting: Local server: http://localhost:5000
+
