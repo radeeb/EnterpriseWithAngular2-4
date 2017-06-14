@@ -1,9 +1,46 @@
-<h1>
-  {{title}}
-</h1>
-<button (click)="add()"> Add </button>
-<button (click)="update()"> Update </button>
-<button (click)="remove()"> Remove </button>
-<ul>
-    <li *ngFor="let c of cuisines | async">{{ c.name }}</li>
-</ul>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">SmartWeather</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><button (click) = "login()"> Login </button></li>
+        <li><button (click) = "logout()"> Logout </button></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid text-center">
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+    
+    </div>
+    <div class="col-sm-8 text-left">
+      <h1>Hi {{displayName}} !</h1>
+
+      <hr>
+      <h3>Test</h3>
+    </div>
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+        <p>Your Saved Locations</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
